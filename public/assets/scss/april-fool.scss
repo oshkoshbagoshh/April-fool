@@ -1,0 +1,194 @@
+// Import Bulma
+@import "bulma/css/bulma.css";
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+// Color Palette Variables
+$indigo: #440381;
+$blue-violet: #8338EC;
+$electric-blue: #51E5FF;
+$sapphire: #0056BF;
+$smoky-black: #100B00;
+
+// Typography Styles
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: $smoky-black; // Smoky Black for text
+  background-color: #FFFFFF; // Light background
+  line-height: 1.6;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+    color: $indigo; // Indigo for headings
+    margin: 0 0 15px;
+  }
+
+  a {
+    color: $indigo; // Indigo for links
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .caption {
+    color: $blue-violet; // Blue Violet for captions
+    font-size: 0.9em;
+  }
+}
+
+// Button Styles
+.button {
+  font-family: 'Rubik', sans-serif;
+  background-color: $sapphire; // Sapphire for buttons
+  color: #FFFFFF; // White text
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;// Import Bulma
+  @import "bulma/css/bulma.css";
+
+  // Import Google Fonts
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+  // Color Palette Variables
+  $indigo: #440381;
+  $blue-violet: #8338EC;
+  $electric-blue: #51E5FF;
+  $sapphire: #0056BF;
+  $smoky-black: #100B00;
+
+  // Typography Styles
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: $smoky-black; // Smoky Black for text
+    background-color: #FFFFFF; // Light background
+    line-height: 1.6;
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Rubik', sans-serif;
+      color: $indigo; // Indigo for headings
+      margin: 0 0 15px;
+    }
+
+    a {
+      color: $indigo; // Indigo for links
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .caption {
+      color: $blue-violet; // Blue Violet for captions
+      font-size: 0.9em;
+    }
+  }
+
+  // Button Styles
+  .button {
+    font-family: 'Rubik', sans-serif;
+    background-color: $sapphire; // Sapphire for buttons
+    color: #FFFFFF; // White text
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+
+    &:hover {
+      background-color: darken($sapphire, 10%); // Slightly darker Sapphire on hover
+    }
+  }
+
+  // Layout Styles
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  p {
+    margin: 0 0 15px;
+  }
+
+  // Logo
+  .logo {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  // Example usage of colors
+  .primary-bg {
+    background-color: $indigo;
+    color: white;
+  }
+
+  .secondary-bg {
+    background-color: $blue-violet;
+    color: white;
+  }
+
+  .accent {
+    color: $electric-blue;
+  }
+
+  .cta {
+    background-color: $sapphire;
+    color: white;
+  }
+
+  // Additional Styling
+
+  text-align: center;
+  display: inline-block;
+
+  &:hover {
+    background-color: darken($sapphire, 10%); // Slightly darker Sapphire on hover
+  }
+}
+
+// Layout Styles
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+// Logo
+.logo {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+// Example usage of colors
+.primary-bg {
+  background-color: $indigo;
+  color: white;
+}
+
+.secondary-bg {
+  background-color: $blue-violet;
+  color: white;
+}
+
+.accent {
+  color: $electric-blue;
+}
+
+.cta {
+  background-color: $sapphire;
+  color: white;
+}
+
+// Additional Styling
