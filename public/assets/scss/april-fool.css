@@ -1,0 +1,142 @@
+@import "bulma/css/bulma.css";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&family=Open+Sans:wght@400;700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #100B00;
+  background-color: #FFFFFF;
+  line-height: 1.6;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Rubik", sans-serif;
+  color: #440381;
+  margin: 0 0 15px;
+}
+body a {
+  color: #440381;
+  text-decoration: none;
+}
+body a:hover {
+  text-decoration: underline;
+}
+body .caption {
+  color: #8338EC;
+  font-size: 0.9em;
+}
+
+.button {
+  font-family: "Rubik", sans-serif;
+  background-color: #0056BF;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  @import "bulma/css/bulma.css";
+  @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&family=Open+Sans:wght@400;700&display=swap");
+  text-align: center;
+  display: inline-block;
+}
+.button body {
+  font-family: "Open Sans", sans-serif;
+  color: #100B00;
+  background-color: #FFFFFF;
+  line-height: 1.6;
+}
+.button body h1, .button body h2, .button body h3, .button body h4, .button body h5, .button body h6 {
+  font-family: "Rubik", sans-serif;
+  color: #440381;
+  margin: 0 0 15px;
+}
+.button body a {
+  color: #440381;
+  text-decoration: none;
+}
+.button body a:hover {
+  text-decoration: underline;
+}
+.button body .caption {
+  color: #8338EC;
+  font-size: 0.9em;
+}
+.button .button {
+  font-family: "Rubik", sans-serif;
+  background-color: #0056BF;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+.button .button:hover {
+  background-color: rgb(0, 63.0366492147, 140);
+}
+.button .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.button p {
+  margin: 0 0 15px;
+}
+.button .logo {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.button .primary-bg {
+  background-color: #440381;
+  color: white;
+}
+.button .secondary-bg {
+  background-color: #8338EC;
+  color: white;
+}
+.button .accent {
+  color: #51E5FF;
+}
+.button .cta {
+  background-color: #0056BF;
+  color: white;
+}
+.button:hover {
+  background-color: rgb(0, 63.0366492147, 140);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+.logo {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.primary-bg {
+  background-color: #440381;
+  color: white;
+}
+
+.secondary-bg {
+  background-color: #8338EC;
+  color: white;
+}
+
+.accent {
+  color: #51E5FF;
+}
+
+.cta {
+  background-color: #0056BF;
+  color: white;
+}
+
+/*# sourceMappingURL=tfnms.css.map */
