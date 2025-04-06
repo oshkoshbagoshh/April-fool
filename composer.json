@@ -18,10 +18,13 @@
         "league/commonmark": "@stable",
         "vlucas/phpdotenv": "@stable",
         "fakerphp/faker": "@stable",
-        "stripe/stripe-php": "@stable"
+        "stripe/stripe-php": "@stable",
+        "intervention/image": "@stable"
 
     },
     "require-dev": {
+        "roave/security-advisories": "dev-latest"
+        ,
         "squizlabs/php_codesniffer": "@stable",
         "phpstan/phpstan": "@stable",
         "pestphp/pest": "@stable",
