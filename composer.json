@@ -1,0 +1,54 @@
+{
+    "name": "oshkoshbagoshh/april-fool",
+    "description":"A project for building and deploying content management systems quickly ",
+    "type": "project",
+    "keywords": ["freelance", "mvp", "minimal"],
+    "homepage": "https://pentecost.ai",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AJ Javadi",
+            "email": "ashkan.javadi@pentecost.ai"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "league/climate": "@stable",
+        "league/csv": "@stable",
+        "league/commonmark": "@stable",
+        "vlucas/phpdotenv": "@stable",
+        "fakerphp/faker": "@stable",
+        "stripe/stripe-php": "@stable"
+
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "@stable",
+        "phpstan/phpstan": "@stable",
+        "pestphp/pest": "@stable",
+        "php-debugbar/php-debugbar": "@stable",
+        "monolog/monolog": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Namespace\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "lint": "vendor/bin/phpcs"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
